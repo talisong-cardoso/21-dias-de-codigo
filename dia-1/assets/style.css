@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-img: url(./images/bg-text.jpeg)
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Fira Code";
+}
+
+h1 {
+    background-clip: text;
+    background-image: var(--bg-img);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10vw;
+}
+
+p {
+    animation: show-hidden 5s infinite;
+    background-clip: text;
+    background-image: var(--bg-img);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8vw;
+}
+
+@keyframes show-hidden {
+    from {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
