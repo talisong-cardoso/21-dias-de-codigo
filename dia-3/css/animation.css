@@ -1,0 +1,166 @@
+@keyframes rotate-border-btn {
+    50% {
+        width: 100%;
+    }
+
+    100% {
+        width: 10px;
+    }
+}
+
+
+@keyframes text-shadow-tiktok {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    10.1% {
+        opacity: 1;
+        text-shadow: none;
+    }
+
+    10.2% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    20% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    20.1% {
+        opacity: 1;
+         text-shadow: -3px 0 red, 3px 0 cyan;
+    }
+
+    20.6% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    30% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    30.1% {
+        opacity: 1;
+         text-shadow: -3px 0 red, 3px 0 cyan;
+    }
+
+    30.5% {
+        opacity: 1;
+         text-shadow: -3px 0 red, 3px 0 cyan;
+    }
+
+    30.6% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    45% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    45.1% {
+        opacity: 1;
+         text-shadow: -3px 0 red, 3px 0 cyan;
+    }
+
+    50% {
+        opacity: 1;
+         text-shadow: -3px 0 red, 3px 0 cyan;
+    }
+
+    55% {
+        opacity: 1;
+         text-shadow: -3px 0 red, 3px 0 cyan;
+    }
+
+    55.1% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    57% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    57.1% {
+        opacity: 1;
+         text-shadow: -3px 0 red, 3px 0 cyan;
+    }
+
+    60% {
+        opacity: 1;
+         text-shadow: -3px 0 red, 3px 0 cyan;
+    }
+
+    60.1% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    65% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    65.1% {
+        opacity: 1;
+         text-shadow: -3px 0 red, 3px 0 cyan;
+    }
+
+    75% {
+        opacity: 1;
+         text-shadow: -3px 0 red, 3px 0 cyan;
+    }
+
+    75.1% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    77% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    77.1% {
+        opacity: 1;
+         text-shadow: -3px 0 red, 3px 0 cyan;
+    }
+
+    85% {
+        opacity: 1;
+         text-shadow: -3px 0 red, 3px 0 cyan;
+    }
+
+    85.1% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    86% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    86.1% {
+        opacity: 1;
+         text-shadow: -3px 0 red, 3px 0 cyan;
+    }
+
+    100% {
+        opacity: 1;
+         text-shadow: -3px 0 red, 3px 0 cyan;
+    }
+}
