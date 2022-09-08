@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #dedede;
+
+}
+
+
+body {
+    background-color: var(--bg);
+    font-family: "Fira Code", serif;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+#counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter__number {
+    font-size: calc(4rem + 20vw);
+
+}
+
+.counter__btns {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+.counter__btn img{
+    width: 40px;
+}
+
+.animate img {
+    animation: rotate 2s forwards;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(-360deg);
+    }
+}
